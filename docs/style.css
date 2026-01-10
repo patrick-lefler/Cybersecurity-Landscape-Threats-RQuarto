@@ -1,0 +1,283 @@
+/* Custom CSS for Executive Risk Intelligence Report - Dark Theme */
+
+/* Import professional fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700&display=swap');
+
+/* Global styling for dark theme */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #e8e8e8;
+  line-height: 1.7;
+  background-color: #1a1a1a;
+}
+
+/* Headers */
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+h1 {
+  font-size: 1.5em;
+  border-bottom: 3px solid #e74c3c;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.35em;
+  color: #f0f0f0;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #d0d0d0;
+}
+
+/* Title block */
+.title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0.3em;
+  border-bottom: 4px solid #e74c3c;
+  padding-bottom: 0.2em;
+}
+
+.subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #b8b8b8;
+  margin-bottom: 1.5em;
+}
+
+/* Callout boxes - adjusted for dark theme */
+.callout {
+  border-left: 5px solid #3498db;
+  background-color: #2a2a2a;
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  color: #e8e8e8;
+}
+
+.callout-note {
+  border-left-color: #3498db;
+  background-color: #1e2a38;
+}
+
+.callout-warning {
+  border-left-color: #f39c12;
+  background-color: #382e1e;
+}
+
+.callout-important {
+  border-left-color: #e74c3c;
+  background-color: #381e1e;
+}
+
+.callout-tip {
+  border-left-color: #27ae60;
+  background-color: #1e3828;
+}
+
+.callout-title {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  color: #ffffff;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 150%;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background-color: #2a2a2a;
+}
+
+th {
+  background-color: #34495e;
+  color: white;
+  font-weight: 500;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #3a3a3a;
+  color: #e8e8e8;
+}
+
+tr:hover {
+  background-color: #333333;
+}
+
+/* Plots and figures */
+.figure {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.figure-caption {
+  font-size: 0.40em;
+  color: #b8b8b8;
+  font-style: italic;
+  margin-top: 0.8em;
+  text-align: center;
+}
+
+/* Code folding */
+.code-fold {
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  border-radius: 4px;
+  padding: 0.5em;
+  margin: 1em 0;
+}
+
+/* Links */
+a {
+  color: #5dade2;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+a:hover {
+  border-bottom: 1px solid #5dade2;
+  color: #85c1e9;
+}
+
+/* Table of contents */
+#TOC {
+  background-color: #2a2a2a;
+  padding: 1.5em;
+  border-radius: 8px;
+  border: 1px solid #3a3a3a;
+}
+
+#TOC ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+#TOC a {
+  color: #d0d0d0;
+  font-weight: 500;
+}
+
+#TOC a:hover {
+  color: #e74c3c;
+}
+
+/* Emphasis */
+strong {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+em {
+  font-style: italic;
+  color: #d0d0d0;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2em;
+  color: #e8e8e8;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #e74c3c;
+  padding-left: 1.5em;
+  margin: 1.5em 0;
+  color: #b8b8b8;
+  font-style: italic;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 2px solid #3a3a3a;
+  margin: 2em 0;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background-color: white;
+    color: black;
+  }
+  
+  .title {
+    color: #000;
+  }
+  
+  body {
+    font-size: 10pt;
+  }
+  
+  .callout {
+    page-break-inside: avoid;
+  }
+  
+  .figure {
+    page-break-inside: avoid;
+  }
+}
+
+/* Additional dark theme adjustments */
+.main-container {
+  background-color: #1a1a1a;
+}
+
+code {
+  background-color: #2a2a2a;
+  color: #f8f8f2;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  color: #f8f8f2;
+}
+
+/* gt table specific styling for dark theme */
+.gt_table {
+  background-color: #2a2a2a;
+  color: #e8e8e8;
+}
+
+.gt_heading {
+  background-color: #34495e;
+  color: #ffffff;
+}
+
+.gt_column_spanner_outer {
+  color: #ffffff;
+}
+
+.gt_row {
+  background-color: #2a2a2a;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.gt_row:hover {
+  background-color: #333333;
+}
