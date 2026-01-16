@@ -18,13 +18,12 @@ This project analyzes 10 years of global cybersecurity threat data (3,001 incide
 ```
 cyber_threat_landscape/
 ├── cyber_threat_landscape.qmd      # Main Quarto document
-├── custom_style.css                 # Professional CSS styling
+├── style.css                 # CSS styling
 ├── Global_Cybersecurity_Threats_2015-2024.csv  # Data file
 ├── README.md                        # This file
 ├── setup_and_render.R              # Setup and rendering script
-└── outputs/                         # Generated reports (created on first run)
-```
 
+```
 ---
 
 ## Prerequisites
