@@ -1,9 +1,5 @@
 # The Evolving Cyber Threat Landscape: A Decade in Review
 
-## Executive Risk Intelligence Report (2015-2024)
-
-A professional R Quarto analysis project showcasing cybersecurity threat intelligence and risk visualization expertise.
-
 ---
 
 ## Project Overview
