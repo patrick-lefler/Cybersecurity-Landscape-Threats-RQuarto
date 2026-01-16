@@ -1,6 +1,6 @@
 # The Evolving Cyber Threat Landscape: A Decade in Review
 
-rQuarto Link:
+Project Link: https://patrick-lefler.github.io/Cybersecurity-Landscape-Threats-RQuarto/
 
 ## Project Overview
 
