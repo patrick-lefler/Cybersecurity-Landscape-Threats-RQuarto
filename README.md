@@ -108,49 +108,6 @@ The following packages will be automatically installed by the setup script:
 
 ---
 
-## Alterations
-
-### Adjust Figure Sizes
-
-Modify the YAML header in `cyber_threat_landscape.qmd`:
-
-```yaml
-fig-width: 10    # Change figure width
-fig-height: 6    # Change figure height
-```
-
-### Change Output Format
-
-To generate PDF instead of HTML:
-
-1. Update YAML header to:
-```yaml
-format:
-  pdf:
-    documentclass: article
-    geometry: margin=1in
-```
-
-2. Ensure you have LaTeX installed (TinyTeX recommended)
-
-### Add Your Branding
-
-1. Edit `custom_style.css` to match your organization's colors
-2. Add your logo by inserting in the Quarto file:
-```html
-![Company Logo](path/to/logo.png){width=200px}
-```
-
----
-
-## Performance Notes
-
-- **Rendering time:** Approximately 2-3 minutes on modern hardware
-- **Output file size:** ~5-8 MB (includes embedded visualizations)
-- **Memory usage:** Peak ~1.5 GB RAM during rendering
-
----
-
 ## Data Source & Methodology
 
 **Dataset:** Global Cybersecurity Threat Database
@@ -174,10 +131,6 @@ format:
 ---
 
 
-## License
 
-This project is available for portfolio and educational purposes.
-
----
 
 
